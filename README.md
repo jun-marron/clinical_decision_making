@@ -1,24 +1,5 @@
-# README
+このプログラムは医療従事者向けの臨床判断アルゴリズムです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+病院等受診前の一次判断に利用します。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+このプログラムでは、各主訴から始め、その詳細を選択して行き、OTC薬による治療が可能か、受診を推奨すべきか判断します。
