@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ClinicalDecisionMaking</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,20 @@
   </head>
 
   <body>
+    <header>
+      <div class="header_title">
+        <div class="container">
+          <%= link_to "ロゴ", root_path, id: "logo" %>
+          <nav class="global_nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to "Home", '#' %></li>
+              <li><%= link_to "about", '#' %></li>
+              <li><%= link_to "help", '#' %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+  </header>
     <%= yield %>
   </body>
 </html>
