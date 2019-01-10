@@ -1,0 +1,2 @@
+module DiarrheaConstipationHelper
+end

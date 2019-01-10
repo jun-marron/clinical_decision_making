@@ -1,5 +1,11 @@
 class SymptomsController < ApplicationController
+
+  def index
+
+  end
+
   def fever
+    @symptom= Symptom.all
   end
 
   def headache
@@ -15,9 +21,6 @@ class SymptomsController < ApplicationController
   end
 
   def stomachache
-  end
-
-  def diarrhea_constipation
   end
 
   def palpitation
