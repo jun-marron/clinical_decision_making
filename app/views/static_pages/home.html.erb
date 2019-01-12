@@ -3,18 +3,18 @@
 <p>症状を選んでください。</p>
 <div class="container">
   <div class="row">
-        <a href="#" class="btn btn-info" role="button">発熱</a>
-        <a href="#" class="btn btn-info" role="button">頭痛</a>
-        <a href="#" class="btn btn-info" role="button">発疹</a>
-        <a href="#" class="btn btn-info" role="button">浮腫</a>
-        <a href="#" class="btn btn-info" role="button">嚥下困難・障害</a>
-        <a href="#" class="btn btn-info" role="button">腹痛</a>
-        <a href="#" class="btn btn-info" role="button">下痢・便秘</a>
-        <a href="#" class="btn btn-info" role="button">動悸・心悸亢進</a>
-        <a href="#" class="btn btn-info" role="button">咳・痰・呼吸困難</a>
-        <a href="#" class="btn btn-info" role="button">記憶障害</a>
-        <a href="#" class="btn btn-info" role="button">めまい</a>
-        <a href="#" class="btn btn-info" role="button">腰痛</a>      
+        <%= link_to "発熱", symptoms_fever_path, class:"btn btn-info" %>
+        <%= link_to "頭痛", symptoms_headache_path, class:"btn btn-info" %>
+        <%= link_to "発疹", symptoms_rash_path, class:"btn btn-info" %>
+        <%= link_to "浮腫", symptoms_edema_path, class:"btn btn-info" %>
+        <%= link_to "嚥下困難・障害", symptoms_dysphagia_path, class:"btn btn-info" %>
+        <%= link_to "腹痛", symptoms_stomachache_path, class:"btn btn-info" %>
+        <%= link_to "下痢・便秘", diarrhea_constipation_index_path, class:"btn btn-info" %>
+        <%= link_to "動悸・心悸亢進", symptoms_palpitation_path, class:"btn btn-info" %>
+        <%= link_to "咳・痰・呼吸困難", symptoms_cough_path, class:"btn btn-info" %>
+        <%= link_to "記憶障害", symptoms_memory_impairmen_path, class:"btn btn-info" %>
+        <%= link_to "めまい", symptoms_edema_path, class:"btn btn-info" %>
+        <%= link_to "腰痛", symptoms_lumbago_path, class:"btn btn-info" %>
       </div>
   </div>
 </div>
